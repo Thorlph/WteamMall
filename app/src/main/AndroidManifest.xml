@@ -46,7 +46,13 @@
             android:launchMode="singleInstance" />
         <activity android:name=".UserModule.ResetPassActivity" />
         <activity android:name=".UserModule.PersionalCenter.PersionIntegralActivity" />
-        <activity android:name=".UserModule.PersionalCenter.ChangPassActivity"></activity>
+        <activity android:name=".UserModule.PersionalCenter.ChangPassActivity" />
+        <activity android:name=".UserModule.PersionalCenter.PersionTaskActivity"></activity>
+        <activity android:name=".UserModule.PersionalCenter.CheckEmailActivity"></activity>
+            <activity
+                android:name=".CouponModule.CouponCenter"
+                android:label="@string/title_activity_coupon_center"
+                android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
